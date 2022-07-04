@@ -9,6 +9,7 @@ namespace AspNetMVCTest
 {
     public class RouteConfig
     {
+        // route config 
         public static void RegisterRoutes(RouteCollection routes)
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
